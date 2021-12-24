@@ -102,3 +102,31 @@ dist
 
 # TernJS port file
 .tern-port
+BD/mongo/_mdb_catalog.wt
+BD/mongo/collection-0--3935908878125508151.wt
+BD/mongo/collection-0-5474393404231329474.wt
+BD/mongo/collection-2--3935908878125508151.wt
+BD/mongo/collection-4--3935908878125508151.wt
+BD/mongo/collection-7--3935908878125508151.wt
+BD/mongo/index-1--3935908878125508151.wt
+BD/mongo/index-1-5474393404231329474.wt
+BD/mongo/index-3--3935908878125508151.wt
+BD/mongo/index-5--3935908878125508151.wt
+BD/mongo/index-6--3935908878125508151.wt
+BD/mongo/index-8--3935908878125508151.wt
+BD/mongo/index-9--3935908878125508151.wt
+BD/mongo/mongod.lock
+BD/mongo/sizeStorer.wt
+BD/mongo/storage.bson
+BD/mongo/WiredTiger
+BD/mongo/WiredTiger.lock
+BD/mongo/WiredTiger.turtle
+BD/mongo/WiredTiger.wt
+BD/mongo/WiredTigerHS.wt
+BD/mariadb/data/aria_log_control
+BD/mariadb/data/aria_log.00000001
+BD/mariadb/data/ib_buffer_pool
+BD/mariadb/data/ib_logfile0
+BD/mariadb/data/ibdata1
+BD/mariadb/data/ibtmp1
+BD/mariadb/data/multi-master.info

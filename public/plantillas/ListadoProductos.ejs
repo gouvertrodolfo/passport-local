@@ -1,0 +1,35 @@
+<% const hayProductos=data.length> 0; %>
+    <div class="container">
+
+        <% if(hayProductos){ %>
+            <table class="table">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Fto</th>
+                </tr>
+                <% for (const item of data) {%>
+                    <tr>
+                        <td>
+                            <%=item.title%>
+                        </td>
+                        <td>
+                            <%=item.price%>
+                        </td>
+                        <td>
+                            <img class="image" src=<%=item.thumbnail%> style="width:25px ;height:25px">
+                        </td>
+                    </tr>
+                    <%};%>
+            </table>
+            <% } else{ %>
+                <h3 class="alert alert-danger">no se encontraron datos</h1>
+
+
+                    <div class="form-group">
+                        <input type="button" value="Fake" class="btn btn-success" onclick="cargarProductosFake()">
+                    </div>
+
+                    <% } %>
+
+    </div>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+  <form action="/login/registro" method="post">
+
+    <div class="input-group input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Correo: </span>
+      </div>
+      <input type="email" id="correo" name="correo" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"
+        placeholder="Your Email" required>
+    </div>
+
+    <div class="input-group input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-sm">clave: </span>
+      </div>
+      <input type="password" id="clave" name="clave" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"
+        placeholder="Clave" required>
+    </div>
+
+
+    <div class="input-group input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Nombre: </span>
+      </div>
+      <input type="text" name="nombre" id="nombre" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"
+        placeholder="Nombre" required>
+    </div>
+
+
+    <div class="input-group input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Apellido: </span>
+      </div>
+      <input type="text" id="apellido" name="apellido" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"
+        placeholder="Apellido" required>
+    </div>
+
+    <div class="input-group input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Edad: </span>
+      </div>
+      <input type="number" id="edad" name="edad" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"
+        placeholder="edad" required>
+    </div>
+
+    <div class="input-group input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Alias: </span>
+      </div>
+      <input type="text" id="alias"  name="alias" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"
+        placeholder="alias" required>
+    </div>
+
+    <div class="form-group">
+      <input type="submit" value="Enviar" class="btn btn-success">
+    </div>
+  </form>
+</body>
+
+</html>

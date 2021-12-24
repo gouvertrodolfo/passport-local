@@ -1,0 +1,18 @@
+<% const hayMensajes=data.length> 0; %>
+    <div class="container">
+
+        <% if(hayMensajes){ %>
+
+            <% for (const item of data) {%>
+                <div>
+                     <strong class="text-primary"> <%= item.author.alias %> </strong>
+                     [<span class="text-danger"> <%= item.fechayhora %> </span>]: 
+                     <em> <%= item.text %> </em>
+                </div>
+
+                <%};%>
+
+        <% } else{ %>
+            <h3 class="alert alert-danger">...escriba un mensaje para iniciar el chat</h1>
+        <% } %>
+    </div>
