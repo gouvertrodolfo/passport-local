@@ -6,7 +6,7 @@ const { apiProductos } = require("./routes/apiProductos")
 const { apiProductosTest } = require("./routes/apiProductosTest")
 const { webProductos } = require("./routes/webProductos")
 const { webProductosTest } = require("./routes/webProductosTest")
-const { webLogin } = require("./routes/webLogin")
+const { info } = require("./routes/info")
 const routes = require('./routes/routes');
 const { passport } = require("./api/MyPassportLocal")
 
@@ -76,6 +76,7 @@ app.use('/api/productosTest', apiProductosTest)
 
 app.use('/', webProductos)
 app.use('/test', webProductosTest)
+app.use('/info', info)
 
 // rutas de login manual usuario MariaDB
 // app.use('/login', webLogin)
